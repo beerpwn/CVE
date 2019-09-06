@@ -7,7 +7,7 @@
 * CVE-2019-15955 (Insecure Admin Session cookie)
 <br>
 <a href="./report_final.pdf">Here</a> you can find the original report that I shared with the mainteiners of Totaljs. 
-In it you find all the POC to reproduce the issues related to the CVEs mentioned before.
+In it you can find all the POC to reproduce the issues related to the CVEs mentioned before.
 
 Cheers, 
 p4w
