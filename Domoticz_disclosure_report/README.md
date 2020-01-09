@@ -10,3 +10,4 @@
 The chain of the two vulnerabilities lead to a Remote Command Execution from not authenticated. I published an exploit on exploit-db: [_Domoticz 4.10577 - Unauthenticated Remote Command Execution_](https://www.exploit-db.com/exploits/46773)
 
 __bytevsbyte (twitter @bytevsbyt3)__
+
