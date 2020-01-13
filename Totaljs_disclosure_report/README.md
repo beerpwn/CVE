@@ -1,4 +1,6 @@
 ## Author: p4w
+### Twitter: https://twitter.com/p4w16
+
 * CVE-2019-8903 (Unathenticated Directory Traversal)
 * CVE-2019-10260 (Stored XSS)
 * CVE-2019-15952 (Authenticated Directory Traversal -> could lead to RCE)
