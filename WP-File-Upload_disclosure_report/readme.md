@@ -3,7 +3,7 @@
 ### HTB: https://www.hackthebox.eu/profile/32300
 ### e-mail: riccardo.krauter@gmail.com
 
-* CVE-2020-xxxx (Directory Traversal on File Upload lead to RCE)
+* (Directory Traversal on File Upload lead to RCE)
 
 This CVE let a user gain __Remote Code Execution__ by uploading a simple `.jpg` or `.txt` file by abusing a __directory traversal__ vulnerability.<br>
 __WordPress File Upload__ is a plugin for __WordPress__. I manage to find a directory traversal vuln. on the file upload functionality.
@@ -18,7 +18,12 @@ this piece of code shows that the function `wfu_include_lib()` will `include_onc
 <br>
 <a href="./report.md">Here</a> you can find the report that I shared with the mainteiner of the plugin, inside it you can find the PoC to reproduce the issue related to the CVE.
 <br>
-<a href="./exploit.py">Here</a> you can find a simple python script exploit. Enjoy the own4ge.
+<a href="./exploit.py">Here</a> you can find a simple python script exploit.
+Example usage:
+```
+$ python exploit.py http://localhost/wordpress/test-wp-file-upload-plugin/ /wordpress
+```
+Enjoy the own4ge.
 
 Cheers,
 p4w
