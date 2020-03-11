@@ -39,13 +39,13 @@ Prepare the payload, it will go down one directory straring from the `upload`(de
 
 Click on `send file` from the web page. Using the intercept on burp-proxy, modify in each requests the `filenames` and the `uploadedfile_X_name` params with the payload shown before (you shuold prepend it to the name already prensent). From now there will be 3 request that you have to modify with the same hex-payload.
 Req. 1:
-![alt RCE-payload](./screen/mod-1.PNG)
+![alt RCE-payload](./screen/mod-1.png)
 
 Req. 2:
-![alt RCE-payload](./screen/mod-2.PNG)
+![alt RCE-payload](./screen/mod-2.png)
 
 Req. 3:
-![alt RCE-payload](./screen/mod-3.PNG)
+![alt RCE-payload](./screen/mod-3.png)
 
 Done!!!!
 Check out the listener, you should see the curl request coming:
