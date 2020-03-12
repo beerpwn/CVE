@@ -3,6 +3,8 @@
 ### HTB: https://www.hackthebox.eu/profile/32300
 ### e-mail: riccardo.krauter@gmail.com
 
+* plugin url: https://wordpress.org/plugins/wp-file-upload/#developers
+* fixed version 4.13.0
 * (Directory Traversal on File Upload lead to RCE)
 
 This CVE let a user gain __Remote Code Execution__ by uploading a simple `.jpg` or `.txt` file by abusing a __directory traversal__ vulnerability.<br>
