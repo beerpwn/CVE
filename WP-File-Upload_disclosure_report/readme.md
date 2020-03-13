@@ -5,7 +5,7 @@
 
 * plugin url: https://wordpress.org/plugins/wp-file-upload/#developers
 * fixed version 4.13.0
-* CVE-2020-10564 (Directory Traversal on File Upload to RCE)
+* CVE-2020-10564 (Directory Traversal on WP File Upload to RCE)
 
 The vulnearbility affecting the plugin let a user gain __Remote Code Execution__ by uploading a simple `.jpg` or `.txt` file by abusing a __directory traversal__.<br>
 __WordPress File Upload__ is a plugin for __WordPress__. I manage to find a directory traversal vuln. on the file upload functionality.
