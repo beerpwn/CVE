@@ -7,7 +7,7 @@
 * fixed version 4.13.0
 * (Directory Traversal on File Upload lead to RCE)
 
-This CVE let a user gain __Remote Code Execution__ by uploading a simple `.jpg` or `.txt` file by abusing a __directory traversal__ vulnerability.<br>
+The vulnearbility affecting the plugin let a user gain __Remote Code Execution__ by uploading a simple `.jpg` or `.txt` file by abusing a __directory traversal__.<br>
 __WordPress File Upload__ is a plugin for __WordPress__. I manage to find a directory traversal vuln. on the file upload functionality.
 It's possible to use this vulnerability to gain RCE by uploading a file (doesn't matter the extension) inside the `lib` directory of the plugin.
 The RCE can be triggered from an unathenticated user, also it doesn't require any admin interaction.
