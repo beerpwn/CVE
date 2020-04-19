@@ -21,7 +21,7 @@ this piece of code shows that the function `wfu_include_lib()` will `include_onc
 <br>
 <a href="./report.md">Here</a> you can find the report that I shared with the mainteiner of the plugin, inside it you can find the PoC to reproduce the issue.
 <br>
-<a href="./exploit.py">Here</a> you can find a simple python script exploit.
+<a href="./CVE-2020-10564_exploit.py">Here</a> you can find a simple python script exploit.
 Example usage:
 ```
 $ python exploit.py http://localhost/wordpress/test-wp-file-upload-plugin/ /wordpress
