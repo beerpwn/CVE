@@ -1,5 +1,5 @@
 ## File upload bypass with .phar extension lead to RCE
-### Author: Riccardo Krauter @ [SOTER IT Security](https://soteritsecurity.com)
+### Author: Riccardo Krauter @ [Soter IT Security](https://soteritsecurity.com) <img src="https://soteritsecurity.com/img/favicon.png" width="20">
 ### Summary
 The vulnerability affect the `FilePicker` module, it is possible to bypass the restriction and upload a malicious file with `.phar` extension to gain Remote Code Execution
 

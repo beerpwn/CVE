@@ -1,6 +1,6 @@
 ## SQL injection
 
-### Author: Riccardo Krauter @ [SOTER IT Security](https://soteritsecurity.com)
+### Author: Riccardo Krauter @ [Soter IT Security](https://soteritsecurity.com) <img src="https://soteritsecurity.com/img/favicon.png" width="20">
 
 The vulnerability is located in the `modules/News/function.admin_articlestab.php` file.
 
