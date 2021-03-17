@@ -4,14 +4,14 @@
 
 The vulnerability is located in the `modules/News/function.admin_articlestab.php` file.
 
-![alt img](sca_1.png)
+![alt img](sca_1.PNG)
 
-![alt img](sca_2.png)
+![alt img](sca_2.PNG)
 
 The `sortby` parameter is sanitized by replacing the `'` with the `_` character. As it is possible to notice the `$sortby` variable is concatenated with `$query1`, but it is possible to inject arbitrary SQL language without using the `'`.
 As proof of concept, please consider the following screen-shot
 
-![alt img](sqli_poc.png)
+![alt img](sqli_poc.PNG)
 
 Notice that the server will sleep for 4 seconds since the query has two results (row).
 
